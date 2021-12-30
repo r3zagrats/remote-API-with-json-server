@@ -2,6 +2,8 @@
 
 ## Using Json Server to deploy an API with adjusted pagination response
 
+[r3zagrats-photoapp-api.herokuapp.com/api/photos](https://r3zagrats-photoapp-api.herokuapp.com/api/photos)
+
 ## API format
 
     {
