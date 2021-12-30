@@ -12,10 +12,10 @@
   "author": "r3zagrats",
   "license": "MIT",
   "devDependencies": {
-    "faker": "^5.5.3",
     "nodemon": "^2.0.15"
   },
   "dependencies": {
+    "faker": "^5.5.3",
     "json-server": "^0.17.0",
     "query-string": "^7.0.1"
   }
