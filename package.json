@@ -1,0 +1,22 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "Learning how to use json-server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main.js",
+    "start": "node main.js",
+    "generate": "node generate.js"
+  },
+  "author": "r3zagrats",
+  "license": "MIT",
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "query-string": "^7.0.1"
+  }
+}

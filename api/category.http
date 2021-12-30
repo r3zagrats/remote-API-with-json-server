@@ -1,0 +1,32 @@
+@baseUrl = http://localhost:3001/api/categories
+
+# @name  getAll
+GET {{baseUrl}}
+
+###
+
+# @name create
+
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+  "name": "Education"
+}
+
+### 
+
+# @name update
+
+PATCH {{baseUrl}}/TCUQsZU
+Content-Type: application/json
+
+{
+  "name": "test1"
+}
+
+###
+
+# @name delete
+
+DELETE {{baseUrl}}/TCUQsZU

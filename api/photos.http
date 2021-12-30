@@ -1,0 +1,40 @@
+@baseUrl = http://localhost:3001/api/photos
+
+# @name  getAll
+GET {{baseUrl}}/
+
+###
+
+# @name getById
+
+GET {{baseUrl}}/or9bfVP
+
+###
+
+# @name create
+
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+  "photo": "https://picsum.photos/id/56/300/300",
+  "categoryId": "TCUQsZU",
+  "title": "test photo pagination"
+}
+
+### 
+
+# @name update
+
+PATCH {{baseUrl}}/or9bfVP
+Content-Type: application/json
+
+{
+  "title": "test2"
+}
+
+###
+
+# @name delete
+
+DELETE {{baseUrl}}/PKd3V1G
